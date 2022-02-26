@@ -104,8 +104,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             Method.POST, MainActivity.API_URL,
             object : Response.Listener<String> {
                 override fun onResponse(response: String) {
-                    val jsonResponse = JSONObject(response).getJSONArray("expenses")
                     try {
+                        val jsonResponse = JSONObject(response).getJSONArray("expenses")
                         parseResponse(listView,owner,jsonResponse,fragment)
                         progressBar.visibility = GONE
                     }
