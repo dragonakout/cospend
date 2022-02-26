@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation.xml" app:startDestination="@id/expensesMainScreen">
+
+    <fragment android:id="@+id/connectMainScreen" android:name="com.mag.cospend.connect.ConnectLandingScreen"
+              android:label=" "/>
+    <fragment android:id="@+id/tasksMainScreen" android:name="com.mag.cospend.tasks.TasksLandingScreen"
+              android:label=" "/>
+    <fragment android:id="@+id/expensesMainScreen" android:name="com.mag.cospend.expenses.ExpensesLandingScreen"
+              android:label=" ">
+        <action android:id="@+id/action_expensesMainScreen_to_newExpenseFragment"
+                app:destination="@id/newExpenseFragment"/>
+    </fragment>
+    <fragment android:id="@+id/newExpenseFragment" android:name="com.mag.cospend.expenses.NewExpenseFragment"
+              android:label="Nouvelle dépense"/>
+</navigation>

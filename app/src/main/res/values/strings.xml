@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CoSpend</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="str_login">Connect</string>
+    <string name="str_expenses">Expenses</string>
+    <string name="str_tasks">Tasks</string>
+    <string name="your_expenses">Dépenses du mois:</string>
+    <string name="difference">Différence:</string>
+    <string name="dollar">$</string>
+    <string name="so_expenses">Dépenses du mois:</string>
+    <string name="expense_value">Montant</string>
+    <string name="description">Description</string>
+    <string name="pick_a_date">Date</string>
+    <string name="date">Date</string>
+    <string name="loading_text">                Ajout en cours...                </string>
+</resources>
